@@ -1,5 +1,6 @@
 # Spider_RAG
 
+```
 import streamlit as st
 import os
 from langchain_groq import ChatGroq
@@ -71,3 +72,5 @@ if rag_chain and retriever:
         answer = rag_chain.invoke({"question": input_question})
         st.subheader("The answer is ")
         st.write(answer)
+```
+
